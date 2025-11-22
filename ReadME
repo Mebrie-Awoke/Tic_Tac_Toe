@@ -1,0 +1,51 @@
+Tic Tac Toe Game
+A classic Tic Tac Toe game built with HTML, CSS, JavaScript, and Bootstrap 5. This project features a responsive and interactive interface for two players.
+
+🚀 Features
+Clean and Responsive UI: Built with Bootstrap 5 for a modern, mobile-friendly layout.
+
+Two-Player Mode: Play against a friend on the same device.
+
+Win/Tie Detection: The game automatically detects wins and ties.
+
+Game Reset: A restart button allows you to quickly start a new game.
+
+Turn Indicator: Displays which player's turn is next.
+
+🛠️ Technologies Used
+HTML5: Structures the game board and elements.
+
+CSS3: Provides custom styling and hover effects.
+
+JavaScript: Handles all game logic, including moves, win conditions, and turn management.
+
+Bootstrap 5: Used for responsive grid layout and component styling.
+
+📁 Project Structure
+text
+tic-tac-toe/
+├── index.html          # Main HTML file
+├── style.css           # Custom styles
+├── script.js           # Game logic
+└── README.md           # Project documentation
+📋 Game Logic Overview
+The JavaScript code manages the game state with the following key components:
+
+Current Player Tracking: Switches between 'X' and 'O'.
+
+Win Condition Check: Tests all 8 possible winning combinations after each move.
+
+Draw Condition Check: Declares a tie if all squares are filled without a winner.
+
+🎮 How to Play
+Open index.html in your web browser.
+
+Players take turns clicking on an empty square.
+
+Player 1 is X, and Player 2 is O.
+
+The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins.
+
+If all squares are filled with no winner, the game is a draw.
+
+Press the "Restart" button to reset the game at any time.
